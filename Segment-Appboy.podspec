@@ -23,33 +23,33 @@ Pod::Spec.new do |s|
 
   s.subspec 'Full-SDK' do |default|
     default.platform = :ios
-    default.dependency 'Appboy-iOS-SDK', '~>4.3.0'
+    default.dependency 'Appboy-iOS-SDK', '~>4.4.0'
     default.source_files = 'Pod/Classes/**/*'
   end
 
   s.subspec 'tvOS' do |tv|
     tv.platform = :tvos, '11.0'
-    tv.dependency 'Appboy-tvOS-SDK', '~>4.3.0'
+    tv.dependency 'Appboy-tvOS-SDK', '~>4.4.0'
     tv.source_files = 'Pod/Classes/**/*'
   end
 
   s.subspec 'Core' do |core|
-    core.dependency 'Appboy-iOS-SDK/Core', '~>4.3.0'
+    core.dependency 'Appboy-iOS-SDK/Core', '~>4.4.0'
     core.source_files = 'Pod/Classes/**/*'
   end
   
   s.subspec 'InAppMessage' do |iam|
-    iam.dependency 'Appboy-iOS-SDK/InAppMessage', '~>4.3.0'
+    iam.dependency 'Appboy-iOS-SDK/InAppMessage', '~>4.4.0'
     iam.source_files = 'Pod/Classes/**/*'
   end
   
   s.subspec 'NewsFeed' do |nf|
-    nf.dependency 'Appboy-iOS-SDK/NewsFeed', '~>4.3.0'
+    nf.dependency 'Appboy-iOS-SDK/NewsFeed', '~>4.4.0'
     nf.source_files = 'Pod/Classes/**/*'
   end
   
   s.subspec 'ContentCards' do |cc|
-    cc.dependency 'Appboy-iOS-SDK/ContentCards', '~>4.3.0'
+    cc.dependency 'Appboy-iOS-SDK/ContentCards', '~>4.4.0'
     cc.source_files = 'Pod/Classes/**/*'
   end
 
